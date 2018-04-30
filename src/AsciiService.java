@@ -29,7 +29,7 @@ public class AsciiService {
                 list.clear();
             }
         } catch (IOException e) {
-            System.err.println("Incorrect ascii file!");
+            System.err.println();
         }
         return map;
     }
